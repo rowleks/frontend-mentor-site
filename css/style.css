@@ -10,10 +10,22 @@ body {
     color: hsl(0, 0%, 8%);
 }
 
+div.container {
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
+
+h1 {
+    font-size: 5rem;
+}
+
 
 .header {
     display: flex;
@@ -49,4 +61,18 @@ div.right-header {
     border: 2px solid hsl(0, 0%, 8%);
     padding: .5rem 1rem;
     border-radius: 15px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding-inline: 5rem;
+}
+
+
+
+section.right-section img {
+    display: block;
+    width: 550px;
 }
