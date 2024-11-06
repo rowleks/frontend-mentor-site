@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Epilogue", sans-serif;
+    font-size: 1.125rem;
+    color: hsl(0, 0%, 8%);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.left-header {
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+
+nav.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+div.right-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-links span {
+    display: inline-block;
+    transform: rotate(90deg);
+}
+
+.register {
+    border: 2px solid hsl(0, 0%, 8%);
+    padding: .5rem 1rem;
+    border-radius: 15px;
+}
